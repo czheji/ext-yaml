@@ -1,0 +1,17 @@
+domain:
+  type: 1
+  name: testdomain
+  id-hash: SHA256
+  sign-hash: SHA256
+  ska:
+    - AES
+    - SM4
+    - Blowfish
+    - DES
+  subdm-ids:
+    subdm-id: [3,5,7,0]
+    subdm-id: [2,1,0,2]
+  g:
+    x: 28373fab0293
+    y: 28373fab0291
+    z: 28373fab0292
